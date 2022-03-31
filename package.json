@@ -1,6 +1,6 @@
 {
   "name": "newf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Helps implement an export/import pattern. Creates a folder. Inside that folder, it creates a file and an index file. It will add the proper export statment in the new folder's index file and in the current folder's index",
   "main": "src/index.js",
   "bin": "src/index.js",
@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrzachnugent/nu-f.git"
+    "url": "git+https://github.com/mrzachnugent/newf.git"
   },
-  "homepage": "https://github.com/mrzachnugent/nu-f#readme",
+  "homepage": "https://github.com/mrzachnugent/newf#readme",
   "bugs": {
-    "url": "https://github.com/mrzachnugent/nu-f/issues"
+    "url": "https://github.com/mrzachnugent/newf/issues"
   },
   "publishConfig": {
     "access": "public",
