@@ -10,7 +10,7 @@ Creates a folder. Inside that folder, it creates a file and an index file. It ex
 
 **Prompts you with:**
 
-- Enter the new file name:
+- Enter the new folder name:
 
 - Enter the file name with it's file extension:
 
@@ -38,12 +38,10 @@ To:
 
 ## Usage
 
-Install as a dev dependency, use with npx, or install globally:
+Install globally or use with npx :
 
 ```
-npm i newf --save-dev
+npm i -g newf
 
 npx newf
-
-npm i -g newf
 ```
