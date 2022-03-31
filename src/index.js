@@ -79,7 +79,7 @@ async function main() {
     console.error({
       error,
       message:
-        'If you think this is a bug, please report an issue at: https://github.com/mrzachnugent/nu-f/issues or make a pull request at: https://github.com/mrzachnugent/nu-f/pulls',
+        'If you think this is a bug, please report an issue at: https://github.com/mrzachnugent/newf/issues or make a pull request at: https://github.com/mrzachnugent/newf/pulls',
     });
   }
 }
