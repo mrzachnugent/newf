@@ -1,6 +1,12 @@
-# newf
+# NewF - newFolder and newFile creator with exports statements
 
 ## Description:
+
+Helps implement an export/import pattern.
+
+Creates a folder. Inside that folder, it creates a file and an index file. It exports the new file from the sibling index. It will also export the new folder from the current index.
+
+## How it works
 
 **Prompts you with:**
 
@@ -8,7 +14,7 @@
 
 - Enter the file name with it's file extension:
 
-Then it:
+**Then it:**
 
 - Creates a new folder with your new file and an index file
 
@@ -35,9 +41,9 @@ To:
 Install as a dev dependency, use with npx, or install globally:
 
 ```
-npm i nu-f --save-dev
+npm i newf --save-dev
 
-npx nu-f
+npx newf
 
-npm i -g nu-f
+npm i -g newf
 ```
