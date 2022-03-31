@@ -1,5 +1,5 @@
 {
-  "name": "nu-f",
+  "name": "newf",
   "version": "1.0.0",
   "description": "Helps implement an export/import pattern. Creates a folder. Inside that folder, it creates a file and an index file. It will add the proper export statment in the new folder's index file and in the current folder's index",
   "main": "src/index.js",
