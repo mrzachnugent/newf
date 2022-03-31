@@ -1,0 +1,37 @@
+{
+  "name": "nu-f",
+  "version": "1.0.0",
+  "description": "Helps implement an export/import pattern. Creates a folder. Inside that folder, it creates a file and an index file. It will add the proper export statment in the new folder's index file and in the current folder's index",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "export",
+    "import",
+    "js",
+    "ts",
+    "jsx",
+    "tsx"
+  ],
+  "author": "Zach Nugent",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzachnugent/nu-f.git"
+  },
+  "homepage": "https://github.com/mrzachnugent/nu-f#readme",
+  "bugs": {
+    "url": "https://github.com/mrzachnugent/nu-f/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "main"
+    ]
+  }
+}
