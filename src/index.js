@@ -65,7 +65,7 @@ async function main() {
 
     await fs.promises.appendFile(
       `./index.${ext}`,
-      `export * from './${folder}'`
+      `export * from './${folder}'\n`
     );
 
     if (currentIndexExists) {
